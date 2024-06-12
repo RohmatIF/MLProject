@@ -9,25 +9,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyNavigation">
         <activity
+            android:name=".Author"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InfoKolom"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".infotambahanfix"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".about"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".infotambahan"
-            android:exported="false" />
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".simuasimodelpositif"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".simuasimodelnegatif"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".simulasimodel"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".splashscreen"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".simulasimodel"
-    android:background="@color/black">
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".simulasimodel"
+        android:background="@color/black">
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="684dp"
-        android:layout_marginEnd="332dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
+        android:layout_marginTop="684sp"
+        android:layout_marginEnd="332sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/line"
@@ -19,11 +24,11 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
         app:srcCompat="@drawable/line"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="684dp"
+        android:layout_marginStart="332sp"
+        android:layout_marginTop="684sp"
         android:rotationY="-180"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,142 +36,135 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="80sp"
         android:background="#0859c6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp"
-        app:circularflow_defaultRadius="20dp"/>
+        tools:layout_editor_absoluteY="0sp"
+        app:circularflow_defaultRadius="20sp"/>
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="306dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="306sp"
+        android:layout_height="53sp"
+        android:layout_marginStart="16sp"
         android:textStyle="italic"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="24sp"
         android:text="Simulasi Model"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="263dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="88dp"
+        android:layout_width="263sp"
+        android:layout_height="28sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="88sp"
         android:text="Note : Tidak bisa menerima nilai null !"
         android:textColor="@color/white"
-        android:textSize="12dp"
+        android:textSize="12sp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="409dp"
+        android:layout_width="409sp"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
 
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="330dp">
+        tools:layout_editor_absoluteX="1sp"
+        tools:layout_editor_absoluteY="330sp">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/gender"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="132dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="132sp"
         android:hint="gender"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/age"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="188dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="188sp"
         android:hint="age"
 
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/hypertension"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="248dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="248sp"
 
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:hint="hypertension"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/heartdisease"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="300sp"
 
         android:textColor="@color/white"
         android:hint="heartdisease"
         android:textColorHint="@color/white"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/smokinghistory"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="352dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="352sp"
         android:hint="smokinghistory"
         android:inputType="numberDecimal"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
 
         android:textColor="@color/white"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/averagebloodsugarlevel"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="468dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="468sp"
         android:hint="averagebloodsugarlevel"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
 
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -176,46 +174,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColorHint="@color/white"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="32sp"
 
         android:textColor="@color/white"
         android:text="Predict"
         android:textStyle="italic"
         android:backgroundTint="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/glucose" />
 
-    <Button
-        android:id="@+id/btninfo"
-        android:layout_width="79dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="8dp"
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_width="79sp"
+            android:layout_height="37sp"
+            android:layout_marginStart="280dp"
 
-        android:backgroundTint="@color/blue"
-        android:text="Info"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            android:layout_marginTop="8sp"
+            android:backgroundTint="@color/blue"
+            android:text="Info"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/bmi"
         android:text=""
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="412dp"
+        android:layout_width="264sp"
+        android:layout_height="38sp"
+        android:layout_marginTop="412sp"
         android:hint="bmi"
         android:inputType="numberDecimal"
 
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
@@ -228,56 +224,55 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnpredict"
         app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/glucose"
-        android:layout_width="264dp"
+        android:layout_width="264sp"
 
         android:textColor="@color/white"
-        android:layout_height="38dp"
+        android:layout_height="38sp"
         android:textColorHint="@color/white"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="532sp"
         android:hint="glucose"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
-    <Button
-        android:id="@+id/btnnegatif"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        <Button
+            android:id="@+id/btnnegatif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
 
-        android:backgroundTint="@color/blue"
-        android:text="Contoh Negatif"
-        android:textStyle="italic"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+            android:layout_marginEnd="150dp"
+            android:backgroundTint="@color/blue"
+            android:text="Contoh Negatif"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtResult" />
 
-    <Button
-        android:id="@+id/btnpositif"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        <Button
+            android:id="@+id/btnpositif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
 
-        android:backgroundTint="@color/blue"
-        android:text="Contoh Positif"
-        android:textStyle="italic"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+            android:layout_marginTop="8sp"
+            android:backgroundTint="@color/blue"
+            android:text="Contoh Positif"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtResult" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

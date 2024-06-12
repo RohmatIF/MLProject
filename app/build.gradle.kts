@@ -36,6 +36,8 @@ android {
 dependencies {
     implementation("org.tensorflow:tensorflow-lite:2.16.1")
     implementation("org.tensorflow:tensorflow-lite:0.0.0-nightly")
+    implementation ("com.intuit.sdp:sdp-android:1.1.1")
+    implementation ("com.intuit.ssp:ssp-android:1.1.1")
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")

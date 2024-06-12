@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/SplashScreenImage"
-        android:layout_width="610dp"
-        android:layout_height="473dp"
-        android:src="@drawable/logodiabetes"
+        android:layout_width="383sp"
+        android:layout_height="313sp"
+        android:src="@drawable/sugar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"

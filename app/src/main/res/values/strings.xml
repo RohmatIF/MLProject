@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Diabetes Prediction</string>
+    <string name="app_name">Sugaria</string>
     <string name="hello_home_fragment">Hello Ini Home Fragment</string>
     <string name="to_profile">Ke Activity Profile Activity</string>
     <string name="to_category">Ke fragment Category</string>

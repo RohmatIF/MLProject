@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 include(":app")
-rootProject.name="Diabetes Predicton"
+rootProject.name="Sugaria"

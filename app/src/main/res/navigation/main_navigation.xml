@@ -109,4 +109,9 @@
         android:name="com.example.guesswhat.mynavigation.about"
         android:label="activity_about"
         tools:layout="@layout/activity_about" />
+    <activity
+        android:id="@+id/infotambahan"
+        android:name="com.example.guesswhat.mynavigation.infotambahan"
+        android:label="activity_infotambahan"
+        tools:layout="@layout/activity_infotambahan" />
 </navigation>

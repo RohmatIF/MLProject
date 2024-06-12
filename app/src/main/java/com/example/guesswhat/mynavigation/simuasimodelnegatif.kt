@@ -86,21 +86,21 @@ class simuasimodelnegatif : AppCompatActivity() {
         input8: String
     ): Float {
         val inputVal = FloatArray(8)
-        inputVal[0] = input1.toFloat()
+        inputVal[0] = ((input1.toFloat()- 0.414660 ) /   0.493031).toFloat()
 
-        inputVal[1] = input2.toFloat()
+        inputVal[1] = ((input2.toFloat() - 41.885856) /22.516840).toFloat()
 
-        inputVal[2] = input3.toFloat()
+        inputVal[2] = ((input3.toFloat()-  0.074850)/0.263150).toFloat()
 
-        inputVal[3] = input4.toFloat()
+        inputVal[3] = ((input4.toFloat()- 0.039420)/0.194593).toFloat()
 
-        inputVal[4] = input5.toFloat()
+        inputVal[4] = ((input5.toFloat()- 12.179650)/1.889659).toFloat()
 
-        inputVal[5] = input6.toFloat()
+        inputVal[5] = ((input6.toFloat()-  27.320767)/6.636783).toFloat()
 
-        inputVal[6] = input7.toFloat()
+        inputVal[6] = ((input7.toFloat()-  5.527507)/1.070672).toFloat()
 
-        inputVal[7] = input8.toFloat()
+        inputVal[7] = ((input8.toFloat()-  138.058060)/40.708136).toFloat()
         val output = Array(1) {
             FloatArray(1)
         }

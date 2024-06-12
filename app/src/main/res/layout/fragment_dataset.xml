@@ -8,10 +8,10 @@
     android:background="@color/black">
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="684dp"
-        android:layout_marginEnd="332dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
+        android:layout_marginTop="684sp"
+        android:layout_marginEnd="332sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/line"
@@ -19,11 +19,11 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
         app:srcCompat="@drawable/line"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="684dp"
+        android:layout_marginStart="332sp"
+        android:layout_marginTop="684sp"
         android:rotationY="-180"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,59 +31,55 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="80sp"
         android:background="#0859c6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp"
-        app:circularflow_defaultRadius="20dp"/>
+        tools:layout_editor_absoluteY="0sp"
+        app:circularflow_defaultRadius="20sp"/>
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="306dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="306sp"
+        android:layout_height="53sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="24sp"
         android:text="Dataset"
         android:textStyle="italic"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="358dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="104dp"
+        android:layout_width="358sp"
+        android:layout_height="33sp"
+        android:layout_marginTop="104sp"
         android:text="Penjelasan Dataset:\n\n"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="366dp"
-        android:layout_height="351dp"
-        android:layout_marginTop="336dp"
+        android:layout_width="366sp"
+        android:layout_height="351sp"
+        android:layout_marginTop="340sp"
         android:text="Dataset prediksi Diabetes adalah kumpulan data medis dan demografi pasien, beserta status diabetesnya (positif atau negatif). Data tersebut mencakup fitur seperti usia, jenis kelamin, indeks massa tubuh (BMI), hipertensi, penyakit jantung, riwayat merokok, tingkat HbA1c, dan tingkat glukosa darah.\n\nKumpulan data ini dapat digunakan untuk membuat model pembelajaran mesin untuk memprediksi diabetes di pasien berdasarkan riwayat kesehatan dan informasi demografisnya. Hal ini dapat berguna bagi profesional kesehatan dalam mengidentifikasi pasien yang mungkin berisiko terkena diabetes dan dalam mengembangkan rencana pengobatan yang dipersonalisasi. Selain itu, kumpulan data ini dapat digunakan oleh para peneliti untuk mengeksplorasi hubungan antara berbagai faktor medis dan demografi serta kemungkinan terkena diabetes.\n\nJumlah Kolom : 9\nJumlah Baris: 100000"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="372dp"
-        android:layout_height="172dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="372sp"
+        android:layout_height="172sp"
+        android:layout_marginTop="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/kolom"

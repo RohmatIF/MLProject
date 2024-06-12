@@ -7,37 +7,53 @@
     tools:context=".infotambahan"
     android:background="@color/black">
 
+    <Button
+        android:id="@+id/btninfokolom"
+        android:layout_width="127sp"
+        android:layout_height="43sp"
+        android:layout_marginStart="220sp"
+
+        android:layout_marginTop="8sp"
+        android:backgroundTint="@color/blue"
+        android:text="Info Kolom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="80sp"
         android:background="#0859c6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp"
-        app:circularflow_defaultRadius="20dp"/>
+        tools:layout_editor_absoluteY="0sp"
+        app:circularflow_defaultRadius="20sp"/>
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="306dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="306sp"
+        android:layout_height="53sp"
+        android:layout_marginStart="16sp"
         android:textStyle="italic"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="24sp"
         android:text="Info Tambahan"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="265dp"
-        android:layout_height="441dp"
-        android:layout_marginTop="64dp"
-        android:text="Gender:\n0 -> Wanita\n1-> Laki-Laki\n2 -> Lainnya\n\nHypertension:\n0 -> Tidak memiliki Hipertensi\n1 -> Positif Memiliki Hipertensi\n\nHeart Disease:\n0 -> Tidak memiliki Penyakit Jantung\n1 -> Positif memiliki Penyakit Jantung\n\nSmoking History:\n0 -> Perokok untuk saat ini\n1 -> Pernah Merokok\n2 -> Mantan Perokok\n3 -> Tidak Pernah Merokok\n4 -> Tidak ada Info\n5 -> Bukan Perokok untuk saat ini\n"
+        android:layout_width="265sp"
+        android:layout_height="541sp"
+        android:layout_marginTop="64sp"
+        android:text="Gender:\n0 -> Wanita\n1-> Laki-Laki\n2 -> Lainnya\n\nAge:\n50 -> Berumur 50 Tahun\n\nHypertension:\n0 -> Tidak memiliki Hipertensi\n1 -> Positif Memiliki Hipertensi\n\nHeart Disease:\n0 -> Tidak memiliki Penyakit Jantung\n1 -> Positif memiliki Penyakit Jantung\n\nSmoking History:\n0 -> Perokok untuk saat ini\n1 -> Pernah Merokok\n2 -> Mantan Perokok\n3 -> Tidak Pernah Merokok\n4 -> Tidak ada Info\n5 -> Bukan Perokok untuk saat ini\n\nBMI (Body Mass Index):\n45 -> Berat badan 50 Kilogram\n\nAverage Blood Sugar Level:\n1.1 -> 1.1 % Rata-Rata Kadar Gula Darah\n\nGlucose:\n80 -> Kadar Gula Darah nya 80mg/dL\n"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

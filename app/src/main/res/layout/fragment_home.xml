@@ -6,24 +6,28 @@
     android:orientation="vertical"
     tools:context=".HomeFragment"
     android:background="@color/black">
+
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="684dp"
-        android:layout_marginEnd="332dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
+        android:layout_marginTop="684sp"
+        android:layout_marginEnd="372sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/line"
-        app:srcCompat="@drawable/line"/>
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/line"
+        tools:src="@drawable/line" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="106dp"
-        android:layout_height="88dp"
+        android:layout_width="106sp"
+        android:layout_height="88sp"
         app:srcCompat="@drawable/line"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="684dp"
+        android:layout_marginStart="332sp"
+        android:layout_marginTop="684sp"
         android:rotationY="-180"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,55 +35,68 @@
 
     <Button
         android:id="@+id/btn_aboutme"
-        android:layout_width="136dp"
+        android:layout_width="136sp"
 
-        android:layout_height="41dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="41sp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="16sp"
         android:backgroundTint="@color/blue"
-        android:text="About Me"
+        android:text="About us"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_profile"
-        android:layout_width="316dp"
-        android:layout_height="54dp"
-
+        android:layout_width="316sp"
+        android:layout_height="54sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="32sp"
         android:backgroundTint="@color/blue"
-        android:layout_marginTop="12dp"
         android:text="Masuk Aplikasi"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="536dp"
-        android:layout_height="360dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="419sp"
+        android:layout_height="256sp"
+        android:layout_marginTop="84sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logodiabetes"
+        app:srcCompat="@drawable/sugar"
         tools:src="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="326dp"
-        android:layout_height="148dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="295sp"
+        android:layout_height="28sp"
+        android:layout_marginTop="36sp"
         android:gravity="left"
-        android:textStyle="bold"
+        android:text="Tahukah kamu ?\n\n"
         android:textAlignment="center"
-        android:text="Tahukah kamu ?\n\nDiabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kamu waspadai.Penyakit diabetes yang tidak terkontrol dengan baik dapat menyebabkan konsekuensi serius, menyebabkan kerusakan pada berbagai organ dan jaringan tubuh."
         android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="326sp"
+        android:layout_height="148sp"
+        android:layout_marginTop="76sp"
+        android:gravity="left"
+        android:text="Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kamu waspadai.Penyakit diabetes yang tidak terkontrol dengan baik dapat menyebabkan konsekuensi serius, menyebabkan kerusakan pada berbagai organ dan jaringan tubuh."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
